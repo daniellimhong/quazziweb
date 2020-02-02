@@ -118,7 +118,9 @@ h2:after { /** This is the line made from CSS */
     background-color: #2980b9;
 }
 
-/** ---- Header ---- */
+/* ------------------------------- */
+/* ! Header */
+/* ------------------------------- */
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url("./img/christopher-gower-m_HRfLhgABo-unsplash.jpg");
@@ -170,4 +172,62 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #3498db;
+}
+
+/* ------------------------------- */
+/* ! How it works */
+/* ------------------------------- */
+
+.section-features .long-copy {
+    margin-bottom: 35px;
+}
+
+/* ------------------------------- */
+/* ! Tech */
+/* ------------------------------- */
+
+.section-techs{
+    padding: 0;
+    background-color: rgba(247, 247, 247, 0.342);
+}
+
+.tech-showcase {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tech-showcase li {
+    /* float: left; */
+    width: 25%;
+    margin: 5%;
+}
+
+.tech-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.tech-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.os {
+    transform: scale(0.85);
+}
+
+.tech-photo:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* ! this small tag here is optional */
+.sm {
+    transform: scale(1.25);
 }

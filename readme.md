@@ -95,30 +95,12 @@ Section 6: Apply
 Title: Learning Paths
 
 Plan 1: Front-end Development
-399$ per month
-That’s only 13.30$ per meal
-1 meal every day
-Order 24/7
-Access to newest creations
-Free delivery
 
 
 Plan 2: Back-end Development
-149$ per month
-That’s only 14.90$ per meal
-1 meal 10 days/month
-Order 24/7
-Access to newest creations
-Free delivery
 
 
 Plan 3: Full-Stack Development
-19$ per meal
-1 meal
-Order from 8 am to 12 pm
-Free delivery
-Section 7: Contact form
-Title: We're happy to hear from you
 
 Fields to include:
 Name
